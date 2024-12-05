@@ -3,9 +3,9 @@ using TMPro; // For TextMeshProUGUI
 
 public class HUDManager : MonoBehaviour
 {
-    public TextMeshProUGUI waveText;     // Use TextMeshProUGUI instead of Text
-    public TextMeshProUGUI ammoText;     // Use TextMeshProUGUI instead of Text
-    public TextMeshProUGUI reloadText;   // Use TextMeshProUGUI instead of Text
+    public TextMeshProUGUI waveText;
+    public TextMeshProUGUI ammoText;
+    public TextMeshProUGUI reloadText;
 
     private WaveManager waveManager;
     private PlayerShooting playerShooting;
