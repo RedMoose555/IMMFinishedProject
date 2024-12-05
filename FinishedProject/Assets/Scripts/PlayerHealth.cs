@@ -34,7 +34,7 @@ public class PlayerHealth : MonoBehaviour
     private void Die()
     {
         Debug.Log("Player has died!");
-        SceneManager.LoadScene("GameOverScene"); // Replace "GameOverScene" with your scene name
+        SceneManager.LoadScene("GameOverScene"); // Load Game over scene
     }
 
     private System.Collections.IEnumerator InvincibilityTimer()
