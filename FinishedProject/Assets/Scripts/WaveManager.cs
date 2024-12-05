@@ -66,7 +66,7 @@ public class WaveManager : MonoBehaviour
         Invoke(nameof(StartWave), timeBetweenWaves); // Start the next wave after a short delay
     }
 
-    // Public method to get the current wave number (can be used by other scripts)
+    // Public method to get the current wave number
     public int GetCurrentWave()
     {
         return currentWave;
