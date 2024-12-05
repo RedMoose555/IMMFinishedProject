@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.UI;  // for UI elements
 using UnityEngine.SceneManagement;  // for scene management
-using TMPro;  // <-- Added this for TextMeshPro
+using TMPro;  // for TextMeshPro
 using System.Collections;
 
 public class LoadingScreen : MonoBehaviour
