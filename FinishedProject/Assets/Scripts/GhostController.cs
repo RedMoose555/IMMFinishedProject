@@ -13,7 +13,7 @@ public class GhostController : MonoBehaviour
 
     void Update()
     {
-        // Ghost movement logic (no changes here)
+        // Ghost movement logic
     }
 
     public void TakeDamage(int damage)
